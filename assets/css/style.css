@@ -43,6 +43,7 @@
 .sectionPadding {
   padding-top: var(--sectionPadding);
 }
+
 .section-title {
   color: var(--Neutral-D_Grey, #4d4d4d);
   text-align: center;
@@ -52,6 +53,7 @@
   font-weight: 600;
   line-height: 45.69px;
 }
+
 .section-sub-title {
   color: var(--Neutral-Grey, #717171);
   text-align: center;
@@ -62,6 +64,7 @@
   line-height: 17.013px;
   margin-bottom: 40px;
 }
+
 .primary-btn {
   display: flex;
   padding: 10.674px 10.684px;
@@ -75,11 +78,13 @@
   min-width: 120px;
   color: var(--whiteColor);
 }
+
 .primary-btn a,
 .primary-btn a:hover,
 .primary-btn i {
   color: var(--whiteColor);
 }
+
 /* reset */
 *,
 ul {
@@ -87,15 +92,19 @@ ul {
   margin: 0;
   box-sizing: border-box;
 }
+
 html {
   font-size: 16px;
 }
+
 body {
   font-size: 15px;
 }
+
 h1 {
   font-family: "Roboto", Tahoma, Verdana, sans-serif;
 }
+
 p {
   font-family: "Roboto Slab", Tahoma, Verdana, sans-serif;
 }
@@ -105,9 +114,11 @@ header {
   box-shadow: 0 1.335px 2.671px 0 rgba(171, 190, 209, 0.4);
   padding: 5.342px 0px;
 }
+
 header .primary-btn {
   margin-left: 25px;
 }
+
 header .primary-btn {
   display: flex;
   padding: 4.674px 10.684px;
@@ -136,11 +147,13 @@ header .primary-btn {
   font-weight: 600;
   line-height: 76px;
 }
+
 .hero .carousel-item img {
   max-width: 358px;
   position: relative;
   margin: 0 auto;
 }
+
 .hero .carousel-item .text-caption span {
   color: var(--Primary, #4caf4f);
   font-family: Inter;
@@ -149,6 +162,7 @@ header .primary-btn {
   font-weight: 600;
   line-height: 76px;
 }
+
 .hero .carousel-item .text-caption p {
   color: var(--Neutral-Grey, #717171);
   /* Body/Regular/Body 2 */
@@ -156,31 +170,38 @@ header .primary-btn {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 24px;
+  /* 150% */
 }
+
 .hero .carousel-indicators [data-bs-target] {
   background-color: var(--Brand-Primary, #4caf4f);
 }
+
 .hero .carousel-indicators {
   margin-bottom: 0rem;
 }
+
 /* ****   our-community   ********** */
 .our-community {
   background: var(--Neutral-Silver, #f5f7fa);
   margin-top: 40px;
   padding: 40px 0px;
 }
+
 .our-community .community-item {
   position: relative;
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
+
 .our-community .community-item img {
   width: 45.026px;
   height: 45.026px;
   margin: 0 auto;
 }
+
 .our-community .community-item h2 {
   color: var(--Neutral-D_Grey, #4d4d4d);
   text-align: center;
@@ -188,8 +209,10 @@ header .primary-btn {
   font-size: 28px;
   font-style: normal;
   font-weight: 700;
-  line-height: 30.019px; /* 128.571% */
+  line-height: 30.019px;
+  /* 128.571% */
 }
+
 .our-community .community-item p {
   color: var(--Neutral-Grey, #717171);
   text-align: center;
@@ -197,8 +220,10 @@ header .primary-btn {
   font-size: 18.674px;
   font-style: normal;
   font-weight: 400;
-  line-height: 20.677px; /* 142.857% */
+  line-height: 20.677px;
+  /* 142.857% */
 }
+
 /* ********** footer ********** */
 .footer {
   display: flex;
@@ -207,36 +232,44 @@ header .primary-btn {
   gap: 41.733px;
   background: var(--Neutral-Black, #263238);
 }
+
 .footer .company-info {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
+
 .footer .company-info img {
   max-width: 210px;
 }
+
 .footer .company-info p {
   color: var(--Neutral-Silver, #f5f7fa);
   font-family: Inter;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 20px; /* 142.857% */
+  line-height: 20px;
+  /* 142.857% */
   margin: 0px;
 }
+
 .footer .company-info .socials ul {
   position: relative;
   display: flex;
   list-style: none;
   flex-direction: row;
 }
+
 .footer .company-info .socials ul li {
   display: flex;
   margin-left: 15px;
 }
+
 .footer .company-info .socials ul li:first-child {
   margin-left: 0px;
 }
+
 .footer .company-info .socials ul li a {
   width: 32px;
   height: 32px;
@@ -263,17 +296,25 @@ header .primary-btn {
   flex-direction: column;
   margin-bottom: 10px;
 }
+
 .footer .hot-links ul li a {
   color: #cecece;
   font-family: Inter;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 20px; /* 142.857% */
+  line-height: 20px;
+  /* 142.857% */
   text-decoration: none;
 }
+
 .footer .footer-item .newsletter form input {
   border-radius: 2.671px;
   opacity: 0.2;
   background: var(--Default-White, #fff);
+}
+
+.pk {
+
+  background-color: red;
 }
